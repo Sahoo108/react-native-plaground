@@ -7,11 +7,14 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
+    "studio": "open -a /Applications/Android\\ Studio.app android",
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^1.7.7",
     "react": "18.2.0",
-    "react-native": "0.73.8"
+    "react-native": "0.73.8",
+    "react-native-network-listener": "^0.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
